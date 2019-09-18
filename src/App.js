@@ -1,19 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './css/App.css';
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import Home from "./views/Home";
-import CssBaseline from "@material-ui/core/CssBaseline";
+import Sidebar from './components/sidebar.jsx'
+import Intro from './components/intro.jsx'
+import About from './components/about.jsx'
+import Projects from './components/projects.jsx'
 
-function App() {
-  return (
-      <div>
-        <CssBaseline />
-        <NavBar/>
-        <Home/>
-        <Footer/>
-      </div>
-  );
+class App extends Component {
+    render() {
+        return (
+            <div id="colorlib-page">
+                <div id="container-wrap">
+                    <Sidebar/>
+                    <div id="colorlib-main">
+                        <Intro/>
+                        <About/>
+                        <Projects/>
+                    </div>
+                </div>
+            </div>
+        );
+    }
 }
 
 export default App;

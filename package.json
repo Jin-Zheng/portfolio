@@ -2,10 +2,12 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jin-zheng.github.io/portfolio/",
   "dependencies": {
     "@material-ui/core": "^4.2.1",
     "@material-ui/icons": "^4.2.1",
     "contentful": "^7.8.2",
+    "gh-pages": "^2.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
