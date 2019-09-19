@@ -85,7 +85,7 @@ export default class Skills extends Component {
                 </section>
 
                 <div id="colorlib-counter" className="colorlib-counters"
-                     style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
+                     style={{backgroundImage: 'url(images/cover_bg_1.jpg)'}} data-stellar-background-ratio="0.5">
                     <div className="overlay"></div>
                     <div className="colorlib-narrow-content">
                         <div className="row">

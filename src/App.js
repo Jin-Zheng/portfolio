@@ -4,6 +4,10 @@ import Sidebar from './components/sidebar.jsx'
 import Intro from './components/intro.jsx'
 import About from './components/about.jsx'
 import Projects from './components/projects.jsx'
+import Skills from './components/skills.jsx'
+import Experience from './components/experience.jsx'
+import School from './components/school.jsx'
+import Contact from './components/contact.jsx'
 
 class App extends Component {
     render() {
@@ -14,7 +18,11 @@ class App extends Component {
                     <div id="colorlib-main">
                         <Intro/>
                         <About/>
-                        <Projects/>
+                        {/*<Skills/>*/}
+                        {/*<School/>*/}
+                        {/*<Experience/>*/}
+                        {/*<Projects/>*/}
+                        {/*<Contact/>*/}
                     </div>
                 </div>
             </div>

@@ -15,10 +15,9 @@ export default class Intro extends Component {
                                             className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                                             <div className="slider-text-inner js-fullheight">
                                                 <div className="desc">
-                                                    <h1>Hi! <br/>I'm Jackson</h1>
-                                                    <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/"
-                                                                                                  target="_blank">colorlib.com</a></h2>
-                                                    <p><a className="btn btn-primary btn-learn">Download CV <i
+                                                    <h1>Hi! <br/>I'm Jin</h1>
+                                                    <h2>Welcome to my portfolio<br/>Download my resume to get a better look</h2>
+                                                    <p><a className="btn btn-primary btn-learn">Download Resume <i
                                                         className="icon-download4"></i></a></p>
                                                 </div>
                                             </div>
@@ -34,11 +33,10 @@ export default class Intro extends Component {
                                             className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                                             <div className="slider-text-inner">
                                                 <div className="desc">
-                                                    <h1>I am <br/>a Designer</h1>
-                                                    <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/"
-                                                                                                  target="_blank">colorlib.com</a></h2>
-                                                    <p><a className="btn btn-primary btn-learn">View Portfolio <i
-                                                        className="icon-briefcase3"></i></a></p>
+                                                    <h1>I am <br/>a Developer</h1>
+                                                    <h2>Take a look at some of my work</h2>
+                                                    <p><a href="https://github.com/Jin-Zheng" className="btn btn-primary btn-learn">View Github <i
+                                                        className="icon-github"></i></a></p>
                                                 </div>
                                             </div>
                                         </div>
