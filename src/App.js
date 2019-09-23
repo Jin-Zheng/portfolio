@@ -19,10 +19,10 @@ class App extends Component {
                         <Intro/>
                         <About/>
                         {/*<Skills/>*/}
-                        {/*<School/>*/}
+                        <School/>
                         {/*<Experience/>*/}
                         {/*<Projects/>*/}
-                        {/*<Contact/>*/}
+                        <Contact/>
                     </div>
                 </div>
             </div>

@@ -9,14 +9,13 @@ export default class Sidebar extends Component {
                     <div className="text-center">
                         <div className="author-img" style={{backgroundImage: 'url(images/sidebar.jpg)'}}></div>
                         <h1 id="colorlib-logo"><a href="index.html">Jin Zheng</a></h1>
-                        <span className="position"><a href="#">Developer</a> from Toronto</span>
+                        <span className="position">Developer from Toronto</span>
                     </div>
                     <nav id="colorlib-main-menu" role="navigation" className="navbar">
                         <div id="navbar" className="collapse">
                             <ul>
                                 <li className="active"><a href="#" data-nav-section="home">Home</a></li>
                                 <li><a href="#" data-nav-section="about">About</a></li>
-                                <li><a href="#" data-nav-section="services">Services</a></li>
                                 <li><a href="#" data-nav-section="skills">Skills</a></li>
                                 <li><a href="#" data-nav-section="education">Education</a></li>
                                 <li><a href="#" data-nav-section="experience">Experience</a></li>
@@ -28,14 +27,14 @@ export default class Sidebar extends Component {
 
                     <div className="colorlib-footer">
                         <ul>
-                            <li><a href="#"><i className="icon-facebook2"></i></a></li>
-                            <li><a href="#"><i className="icon-twitter2"></i></a></li>
-                            <li><a href="#"><i className="icon-instagram"></i></a></li>
-                            <li><a href="#"><i className="icon-linkedin2"></i></a></li>
+                            <li><a href="https://www.facebook.com/golden.zheng" target="_blank"><i className="icon-facebook2"></i></a></li>
+                            <li><a href="https://www.instagram.com/goldenzheng/" target="_blank"><i className="icon-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/jin-tong-zheng-229147112/" target="_blank"><i className="icon-linkedin2"></i></a></li>
+                            <li><a href="https://github.com/Jin-Zheng" target="_blank"><i className="icon-github"></i></a></li>
                         </ul>
                         <p className="fixed-bottom"><small>
-                            Copyright 2019 All rights reserved   Template made with <i className="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                            <span>Images from <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span>
+                            Copyright {(new Date().getFullYear())} All rights reserved   Template made with <i className="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <span>Images from <a href="https://unsplash.com/" target="_blank">Unsplash</a></span>
                         </small></p>
                     </div>
                 </aside>
