@@ -41,7 +41,7 @@ export default class Contact extends Component {
                                         <i className="icon-phone"></i>
                                     </div>
                                     <div className="colorlib-text">
-                                        <p><a href="tel:+1416=890-9185">+1-416-890-9185</a></p>
+                                        <p><a href="tel:+1416-890-9185">+1-416-890-9185</a></p>
                                     </div>
                                 </div>
                             </div>
