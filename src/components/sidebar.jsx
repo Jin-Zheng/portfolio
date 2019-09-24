@@ -27,14 +27,14 @@ export default class Sidebar extends Component {
 
                     <div className="colorlib-footer">
                         <ul>
-                            <li><a href="https://www.facebook.com/golden.zheng" target="_blank"><i className="icon-facebook2"></i></a></li>
-                            <li><a href="https://www.instagram.com/goldenzheng/" target="_blank"><i className="icon-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/golden.zheng" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2"></i></a></li>
+                            <li><a href="https://www.instagram.com/goldenzheng/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram"></i></a></li>
                             <li><a href="https://www.linkedin.com/in/jin-tong-zheng-229147112/" target="_blank"><i className="icon-linkedin2"></i></a></li>
-                            <li><a href="https://github.com/Jin-Zheng" target="_blank"><i className="icon-github"></i></a></li>
+                            <li><a href="https://github.com/Jin-Zheng" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
                         </ul>
                         <p className="fixed-bottom"><small>
-                            Copyright {(new Date().getFullYear())} All rights reserved   Template made with <i className="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                            <span>Images from <a href="https://unsplash.com/" target="_blank">Unsplash</a></span>
+                            Copyright {(new Date().getFullYear())} All rights reserved   Template made with <i className="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a>
+                            <span>Images from <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a></span>
                         </small></p>
                     </div>
                 </aside>
