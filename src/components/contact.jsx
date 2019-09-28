@@ -21,7 +21,7 @@ export default class Contact extends Component {
                                         <i className="icon-globe-outline"></i>
                                     </div>
                                     <div className="colorlib-text">
-                                        <p><a href="mailto:jinzheng.business@gmail.com">jinzheng.business@gmail.com</a></p>
+                                        <h3><a href="mailto:jinzheng.business@gmail.com">jinzheng.business@gmail.com</a></h3>
                                     </div>
                                 </div>
 
@@ -31,7 +31,7 @@ export default class Contact extends Component {
                                         <i className="icon-map"></i>
                                     </div>
                                     <div className="colorlib-text">
-                                        <p>15 Roehampton Ave, Suite 1306 Toronto ON M4P 1P9</p>
+                                        <h3>15 Roehampton Ave, Suite 1306 Toronto ON M4P 1P9</h3>
                                     </div>
                                 </div>
 
@@ -41,7 +41,7 @@ export default class Contact extends Component {
                                         <i className="icon-phone"></i>
                                     </div>
                                     <div className="colorlib-text">
-                                        <p><a href="tel:+1416-890-9185">+1-416-890-9185</a></p>
+                                        <h3><a href="tel:+1416-890-9185">+1-416-890-9185</a></h3>
                                     </div>
                                 </div>
                             </div>

@@ -24,7 +24,7 @@ export default class Experience extends Component {
                                             </div>
 
                                             <div className="timeline-label">
-                                                <h2><a href="#">Data Warehousing Consultant at Adastra Corp.</a> <span>Jul 2018 - Present</span></h2>
+                                                <h2>Data Warehousing Consultant at Adastra Corp. <span>Jul 2018 - Present</span></h2>
                                                 <p>
                                                     <ul>
                                                         <li>ETL Consultant providing data warehousing solutions using technology such as <strong>Sqoop</strong>, <strong>Hive</strong>, <strong>Hadoop</strong>, and <strong>AWS Glue</strong>. Currently working with the client <i>Sunlife Financial</i>.</li>
@@ -44,7 +44,7 @@ export default class Experience extends Component {
                                                 <i className="icon-globe2"></i>
                                             </div>
                                             <div className="timeline-label">
-                                                <h2><a href="#">Application Analyst at Ontario Ministry of Education</a> <span>May 2016 - Sep 2017</span></h2>
+                                                <h2>Application Analyst at Ontario Ministry of Education <span>May 2016 - Sep 2017</span></h2>
                                                 <p>
                                                     <ul>
                                                         <li>Full stack development for <i>OSAP (Ontario Student Assistance Program)</i> team in an Agile environment utilizing the LAMP stack; <strong>Spring MVC Framework</strong>, <strong>IBM Websphere</strong>, <strong>CSS</strong>, <strong>Javascript</strong>, and <strong>Oracle SQL frameworks</strong>.</li>

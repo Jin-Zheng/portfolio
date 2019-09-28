@@ -35,7 +35,7 @@ export default class Intro extends Component {
                                                 <div className="desc">
                                                     <h1>I am <br/>a Developer</h1>
                                                     <h2>Take a look at some of my work</h2>
-                                                    <p><a href="https://github.com/Jin-Zheng" className="btn btn-primary btn-learn">View Github <i
+                                                    <p><a href="https://github.com/Jin-Zheng" className="btn btn-primary btn-learn" target="_blank" rel="noopener noreferrer">View Github <i
                                                         className="icon-github"></i></a></p>
                                                 </div>
                                             </div>

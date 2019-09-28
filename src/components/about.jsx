@@ -25,9 +25,9 @@ export default class About extends Component {
                                 <div className="row row-pt-md">
                                     <div className="col-md-4 text-center animate-box">
                                         <div className="services color-1">
-								<span className="icon">
-									<i className="icon-globe2"></i>
-								</span>
+                                            <span className="icon">
+                                                <i className="icon-globe2"></i>
+                                            </span>
                                             <div className="desc">
                                                 <h3>Web Development</h3>
                                                 <p>I have a passion for frontend development and sleek web design. My favorite stack is currently <strong>MERN.</strong></p>
@@ -36,9 +36,9 @@ export default class About extends Component {
                                     </div>
                                     <div className="col-md-4 text-center animate-box">
                                         <div className="services color-2">
-								<span className="icon">
-									<i className="icon-layout"></i>
-								</span>
+                                            <span className="icon">
+                                                <i className="icon-layout"></i>
+                                            </span>
                                             <div className="desc">
                                                 <h3>Software</h3>
                                                 <p>I enjoy using languages such as <strong>Javascipt</strong> and <strong>Python</strong> for their versatility and popularity.</p>
@@ -47,9 +47,9 @@ export default class About extends Component {
                                     </div>
                                     <div className="col-md-4 text-center animate-box">
                                         <div className="services color-3">
-								<span className="icon">
-									<i className="icon-data"></i>
-								</span>
+                                            <span className="icon">
+                                                <i className="icon-data"></i>
+                                            </span>
                                             <div className="desc">
                                                 <h3>Big Data Analytics</h3>
                                                 <p>At Sunlife, I developed an interest in Big Data and Cloud applications. Especially in data science and analytics.</p>
