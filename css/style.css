@@ -601,6 +601,22 @@ body.offcanvas {
   filter: alpha(opacity=40);
   font-size: 16px; }
 
+.skills {
+  position: relative;
+  background: #f2f3f7;
+  -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  border-bottom: 2px solid #2c98f0;}
+  .skills h2 {
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500; }
+  .skills tr {
+    height: 60px}
+
 .services {
   margin-bottom: 30px;
   padding: 1.5em;
@@ -831,14 +847,15 @@ body.offcanvas {
       margin: 0;
       padding: 0; }
     .colorlib-feature .colorlib-text h3 {
+      font-family: "Quicksand", Arial, sans-serif;
       font-weight: 500;
       margin-bottom: 20px;
       color: rgba(0, 0, 0, 0.7);
       font-size: 14px;
-      letter-spacing: 3px;
+      letter-spacing: 2px;
       text-transform: uppercase; }
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
-    margin-top: 30px; }
+    margin-top: 40px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
     color: #2c98f0;
     font-size: 40px; }
