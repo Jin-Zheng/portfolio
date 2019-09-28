@@ -4,6 +4,7 @@ export default class Unused extends Component {
     render() {
         return (
             <div>
+                {/*Scrolling background with stat counters*/}
                 <div id="colorlib-counter" className="colorlib-counters"
                      style={{backgroundImage: 'url(images/cover_bg_1.jpg)'}} data-stellar-background-ratio="0.5">
                     <div className="overlay"></div>
@@ -34,30 +35,32 @@ export default class Unused extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-7 col-md-push-1">
-                    <div className="row">
-                        <div className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box"
-                             data-animate-effect="fadeInRight">
-                            <form action="">
-                                <div className="form-group">
-                                    <input type="text" className="form-control" placeholder="Name"/>
-                                </div>
-                                <div className="form-group">
-                                    <input type="text" className="form-control" placeholder="Email"/>
-                                </div>
-                                <div className="form-group">
-                                    <input type="text" className="form-control" placeholder="Subject"/>
-                                </div>
-                                <div className="form-group">
+                {/*Contact form*/}
+                <div className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box"
+                     data-animate-effect="fadeInRight">
+                    <form action="">
+                        <div className="form-group">
+                            <input type="text" className="form-control" placeholder="Name"/>
+                        </div>
+                        <div className="form-group">
+                            <input type="text" className="form-control" placeholder="Email"/>
+                        </div>
+                        <div className="form-group">
+                            <input type="text" className="form-control" placeholder="Subject"/>
+                        </div>
+                        <div className="form-group">
                                                 <textarea name="" id="message" cols="30" rows="7"
                                                           className="form-control" placeholder="Message"></textarea>
-                                </div>
-                                <div className="form-group">
-                                    <input type="submit" className="btn btn-primary btn-send-message"
-                                           value="Send Message"/>
-                                </div>
-                            </form>
                         </div>
+                        <div className="form-group">
+                            <input type="submit" className="btn btn-primary btn-send-message"
+                                   value="Send Message"/>
+                        </div>
+                    </form>
+                </div>
+                {/*Progress bars*/}
+                <div className="col-md-7 col-md-push-1">
+                    <div className="row">
                         <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
                             <div className="progress-wrap">
                                 <h3>Photoshop</h3>
@@ -126,7 +129,110 @@ export default class Unused extends Component {
                         </div>
                     </div>
                 </div>
+                {/*Small box component with title*/}
+                <section className="colorlib-services" data-section="services">
+                    <div className="colorlib-narrow-content">
+                        <div className="row">
+                            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                                 data-animate-effect="fadeInLeft">
+                                <span className="heading-meta">What I do?</span>
+                                <h2 className="colorlib-heading">Here are some of my expertise</h2>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+                                <div className="services color-1">
+                                    <span className="icon2"><i className="icon-globe2"></i></span>
+                                    <h3>Web Development</h3>
+                                </div>
+                            </div>
+                            <div className="col-md-3 animate-box" data-animate-effect="fadeInRight">
+                                <div className="services color-2">
+                                    <span className="icon2"><i className="icon-cloud4"></i></span>
+                                    <h3>Cloud</h3>
+                                </div>
+                            </div>
+                            <div className="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+                                <div className="services color-4">
+                                    <span className="icon2"><i className="icon-layout"></i></span>
+                                    <h3>Software</h3>
+                                </div>
+                            </div>
+                            <div className="col-md-3 animate-box" data-animate-effect="fadeInTop">
+                                <div className="services color-3">
+                                    <span className="icon2"><i className="icon-data"></i></span>
+                                    <h3>Big Data Analytics</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {/*Dropdown info displays*/}
+                <section className="colorlib-education" data-section="education">
+                    <div className="colorlib-narrow-content">
+                        <div className="row">
+                            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                                 data-animate-effect="fadeInLeft">
+                                <span className="heading-meta">Education</span>
+                                <h2 className="colorlib-heading animate-box">Where I Studied</h2>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                                <div className="fancy-collapse-panel">
+                                    <div className="panel-group" id="accordion" role="tablist"
+                                         aria-multiselectable="true">
+                                        <div className="panel panel-default">
+                                            <div className="panel-heading" role="tab" id="headingOne">
+                                                <h4 className="panel-title">
+                                                    <a className="collapsed" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+                                                       aria-controls="collapseOne">Honours Bachelor of Science Degree
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseOne" className="panel-collapse collapse" role="tabpanel"
+                                                 aria-labelledby="headingOne">
+                                                <div className="panel-body">
+                                                    <p>I obtained my degree from the <strong>University of
+                                                        Toronto</strong> Scarborough Campus. There I pursued a Honours
+                                                        Bachelors of Science, double majoring in <strong>Computer
+                                                            Science</strong> and <strong>Behavioral Psychology</strong>.
+                                                    </p>
+                                                    <p>I studied there from 2013 to 2018. I also completed a co-op year
+                                                        in 2017 at the Ontario Ministry of Education.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="panel panel-default">
+                                            <div className="panel-heading" role="tab" id="headingTwo">
+                                                <h4 className="panel-title">
+                                                    <a className="collapsed" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseTwo"
+                                                       aria-expanded="false" aria-controls="collapseTwo">High School
+                                                        Secondary Education
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseTwo" className="panel-collapse collapse" role="tabpanel"
+                                                 aria-labelledby="headingTwo">
+                                                <div className="panel-body">
+                                                    <p>I completed my high school education from <strong>Pierre Elliott
+                                                        Trudeau HS</strong> in Markham Ontario.</p>
+                                                    <p>I studied there from 2009-2013. My major interests at the time
+                                                        were Computer Science, Psychology, and Investment Capital
+                                                        Markets</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
+
         )
     }
 }
