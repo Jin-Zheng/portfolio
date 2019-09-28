@@ -18,11 +18,9 @@ export default class Experience extends Component {
                                 <div className="timeline-centered">
                                     <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                                         <div className="timeline-entry-inner">
-
-                                            <div className="timeline-icon color-1">
+                                            <div className="timeline-icon color-3">
                                                 <i className="icon-data"></i>
                                             </div>
-
                                             <div className="timeline-label">
                                                 <h2>Data Warehousing Consultant at Adastra Corp. <span>Jul 2018 - Present</span></h2>
                                                 <p>
@@ -36,11 +34,9 @@ export default class Experience extends Component {
                                             </div>
                                         </div>
                                     </article>
-
-
                                     <article className="timeline-entry animate-box" data-animate-effect="fadeInRight">
                                         <div className="timeline-entry-inner">
-                                            <div className="timeline-icon color-2">
+                                            <div className="timeline-icon color-4">
                                                 <i className="icon-globe2"></i>
                                             </div>
                                             <div className="timeline-label">
