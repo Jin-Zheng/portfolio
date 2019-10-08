@@ -14,7 +14,7 @@ export default class Projects extends Component {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                            <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
                                 <div className="project" style={{backgroundImage: 'url(images/intelligentcredit.png)'}}>
                                     <div className="desc">
                                         <div className="con">
@@ -24,7 +24,7 @@ export default class Projects extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-12 animate-box" data-animate-effect="fadeInRight">
+                            <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
                                 <div className="project" style={{backgroundImage: 'url(images/metrognome.png)'}}>
                                     <div className="desc">
                                         <div className="con">
@@ -34,7 +34,7 @@ export default class Projects extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-12 animate-box" data-animate-effect="fadeInTop">
+                            <div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
                                 <div className="project" style={{backgroundImage: 'url(images/lambdaworks.png)'}}>
                                     <div className="desc">
                                         <div className="con">
