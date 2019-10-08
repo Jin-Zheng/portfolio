@@ -23,8 +23,17 @@ export default class School extends Component {
                                             </div>
                                             <div className="timeline-label">
                                                 <h2>Honours Bachelor of Science from University of Toronto <span>2013 - 2018</span></h2>
-                                                <p>I obtained my degree from the <strong>University of Toronto</strong> Scarborough Campus. There I pursued a Honours Bachelors of Science, double majoring in <strong>Computer Science</strong> and <strong>Behavioral Psychology</strong>.</p>
-                                                <p>I studied there from 2013 to 2018. I also completed a co-op year in 2017 at the Ontario Ministry of Education.</p>
+                                                <ul>
+                                                    <li>
+                                                        I obtained my degree from the <strong>University of Toronto</strong> Scarborough Campus.
+                                                    </li>
+                                                    <li>
+                                                        There I pursued a Honours Bachelors of Science, double majoring in <strong>Computer Science</strong> and <strong>Behavioral Psychology</strong>.
+                                                    </li>
+                                                    <li>
+                                                        I studied there from 2013 to 2018. I also completed a co-op year in 2017 at the Ontario Ministry of Education.
+                                                    </li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </article>
@@ -35,8 +44,14 @@ export default class School extends Component {
                                             </div>
                                             <div className="timeline-label">
                                                 <h2>High School Diploma from Pierre Elliott Trudeau High School <span>2009 - 2013</span></h2>
-                                                <p>I completed my high school education from <strong>Pierre Elliott Trudeau HS</strong> in Markham Ontario.</p>
-                                                <p>I studied there from 2009-2013. My major interests at the time were Computer Science, Psychology, and Investment Capital Markets</p>
+                                                <ul>
+                                                    <li>
+                                                        I completed my high school education from <strong>Pierre Elliott Trudeau HS</strong> in Markham Ontario.
+                                                    </li>
+                                                    <li>
+                                                        I studied there from 2009-2013. My major interests at the time were Computer Science, Psychology, and Investment Capital Markets
+                                                    </li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </article>
