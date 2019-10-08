@@ -932,8 +932,8 @@ body.offcanvas {
       color: #2c98f0; }
 
 .project {
-  background-size: initial;
-  background-position: center center;
+  background-size: contain;
+  background-position: top center;
   background-repeat: no-repeat;
   position: relative;
   height: 300px;
@@ -953,8 +953,9 @@ body.offcanvas {
     transition: 0.3s; }
     .project .desc .con {
       padding: 20px;
+      top: 35%;
       display: block;
-      position: relative;
+      position: absolute;
       height: 300px; }
       .project .desc .con .icon {
         position: absolute;
