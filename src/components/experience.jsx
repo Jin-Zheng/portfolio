@@ -24,11 +24,20 @@ export default class Experience extends Component {
                                             <div className="timeline-label">
                                                 <h2>Data Warehousing Consultant at Adastra Corp. <span>Jul 2018 - Present</span></h2>
                                                 <p>
+                                                    <strong>Contracted to Sunlife Financial - ETL Developer and Operations Support</strong>
                                                     <ul>
-                                                        <li>ETL Consultant providing data warehousing solutions using technology such as <strong>Sqoop</strong>, <strong>Hive</strong>, <strong>Hadoop</strong>, and <strong>AWS Glue</strong>. Currently working with the client <i>Sunlife Financial</i>.</li>
-                                                        <li>Successfully implemented several ETL workflows for Sunlife’s projects CS Analytics, CHESS, Global, and IFRS17 using software such as <strong>Informatica Powercenter</strong>, <strong>Apache Zeppelin</strong> and <strong>PySpark</strong>.</li>
-                                                        <li>Currently working as a production support analyst providing development and production support on several projects including many of the ones I’ve developed ETLs for.</li>
-                                                        <li>Smoothly transitioned between 4 unique teams within Sunlife that use vastly different technologies and workflow practices. Successfully collaborated with team members to transition between projects easily.</li>
+                                                        <li>I have worked on 4 projects within the Delivery team: CS Analytics, CHESS, Global, IFRS17.</li>
+                                                        <li>My responsibilities included developing and testing ETL workflows using Informatica for the Hadoop data lake.</li>
+                                                        <li>I also prototyped Spark ETL workflows for a transitioning project which used AWS cloud warehousing rather than Hadoop.</li>
+                                                        <li>I am currently on the operations support team. Supporting Hadoop projects with production issues and operational problems.</li>
+                                                        <li><strong>Technology Utilized:</strong> Informatica Powercenter, Informatica BDE, Apache Zeppelin, Pyspark, Hadoop, Hive, AWS Glue, SQLServer, Oracle DB2, Sunlife Mainframe</li>
+                                                    </ul>
+                                                    <strong>Prototyping for Internal SAAS Project - Intelligent Credit</strong>
+                                                    <ul>
+                                                        <li>I was the dedicated frontend developer of the prototype, building out the dashboard and web hooks using ReactJS.</li>
+                                                        <li>I designed the data model with my colleagues using free online data modeling tools. We took extra care to normalize our data models to BCNF.</li>
+                                                        <li>I presented the prototype to CEO Darren Edery and VP Alex Cotonat as the frontend consult.</li>
+                                                        <li><strong>Technology Utilized:</strong> ReactJS, NodeJS, ExpressJS, MySQL, Javascript, CSS and Bootstrap, HTML</li>
                                                     </ul>
                                                 </p>
                                             </div>
@@ -42,12 +51,18 @@ export default class Experience extends Component {
                                             <div className="timeline-label">
                                                 <h2>Application Analyst at Ontario Ministry of Education <span>May 2016 - Sep 2017</span></h2>
                                                 <p>
+                                                    <strong>Full Stack Developer - OSAP Admin Facing Application</strong>
                                                     <ul>
-                                                        <li>Full stack development for <i>OSAP (Ontario Student Assistance Program)</i> team in an Agile environment utilizing the LAMP stack; <strong>Spring MVC Framework</strong>, <strong>IBM Websphere</strong>, <strong>CSS</strong>, <strong>Javascript</strong>, and <strong>Oracle SQL frameworks</strong>.</li>
-                                                        <li>Created web pages and web modules for OSAP slated for 2018, 2019, and 2020 release as well as resolving defect tickets related these projects.</li>
-                                                        <li>Introduced Selenium as a new testing solution to the OSAP QA and development team and provided expertise and guidance in it’s usage.</li>
-                                                        <li>Created testing suites using <strong>Selenium</strong> in order to perform automation testing on new and existing modules.</li>
-                                                        <li>Spent 3 months QA testing before joining the development team during which I carefully tested the OSAP application and logged well documented defects for the development team.</li>
+                                                        <li>I was responsible for developing new views for the OSAP 2017-2018 and 2018-2019 applications as per new business requirements.</li>
+                                                        <li>I also analyzed and resolved defect tickets logged by the QA team in regards to the student facing and admin facing applications.</li>
+                                                        <li>I introduced Selenium as a automation testing suite to the team in order to streamline the testing of an OSAP application's lifecycle.</li>
+                                                        <li><strong>Technology Utilized:</strong> Javascript and JQuery, HTML, CSS, Oracle SQL, Spring MVC, IBM Websphere, Selenium</li>
+                                                    </ul>
+                                                    <strong>QA Analyst - OSAP Admin Facing Application</strong>
+                                                    <ul>
+                                                        <li>My responsibilities were to take test cases provided to me and run the procedure to ensure proper function.</li>
+                                                        <li>I was responsible for logging dozens of defects and providing the exact procedure to replicate for a developer to fix.</li>
+                                                        <li><strong>Technology Utilized:</strong> Selenium</li>
                                                     </ul>
                                                 </p>
                                             </div>
