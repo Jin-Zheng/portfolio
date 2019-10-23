@@ -33,7 +33,7 @@ export default class Sidebar extends Component {
                             <li><a href="https://github.com/Jin-Zheng" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
                         </ul>
                         <p className="fixed-bottom"><small>
-                            Copyright {(new Date().getFullYear())} All rights reserved   Template made with <i className="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a>
+                            Inspiration from <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a>
                             <span>Images from <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a></span>
                         </small></p>
                     </div>
