@@ -3,14 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 First iteration finished - September 20th
 
 ## To Do:
-- Revamp Skills
-    - Iconize
 - Revamp Education
     - Remove Timeline
-- Revamp Experience
-- Revamp Projects
-    - Use bordered boxes with banner image as header
-    - Briefly describe project in bottom box
 
 
 ## Available Scripts
