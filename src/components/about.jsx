@@ -16,8 +16,8 @@ export default class About extends Component {
                                             <p>My name is Jin Zheng. I am a {(new Date().getFullYear()) - 1995} year old developer from Toronto, Canada.
                                                 Currently I am consulting full time for <a href="https://adastracorp.com/" target="_blank" rel="noopener noreferrer">Adastra Corporation</a> providing ETL solutions and dev-ops support for the client <a href="https://www.sunlife.ca/" target="_blank">Sunlife Financial</a>.
                                                 My greatest strength as a developer is my intuition and adaptability when working with new teams and varied technologies, which allows me to be a versatile developer to meet all business requirements while providing elegant solutions.
+                                                My career interests include:
                                             </p>
-                                            <p>My career interests include: </p>
                                         </div>
                                     </div>
                                 </div>
