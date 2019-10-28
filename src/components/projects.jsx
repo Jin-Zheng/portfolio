@@ -15,7 +15,7 @@ export default class Projects extends Component {
                         </div>
                         <div className="row">
                             <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                                <div className="project" style={{backgroundImage: 'url(images/intelligentcredit.png)'}}>
+                                <div className="project" style={{backgroundImage: 'url(images/intelligentCreditMockup.jpg)'}}>
                                     <div className="desc">
                                         <div className="con">
                                             <h3><a>Intelligent Credit</a></h3>
@@ -25,7 +25,7 @@ export default class Projects extends Component {
                                 </div>
                             </div>
                             <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-                                <div className="project" style={{backgroundImage: 'url(images/metrognome.png)'}}>
+                                <div className="project" style={{backgroundImage: 'url(images/metrognome1.png)'}}>
                                     <div className="desc">
                                         <div className="con">
                                             <h3><a>Metro-Gnome</a></h3>
@@ -35,7 +35,7 @@ export default class Projects extends Component {
                                 </div>
                             </div>
                             <div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-                                <div className="project" style={{backgroundImage: 'url(images/lambdaworks.png)'}}>
+                                <div className="project" style={{backgroundImage: 'url(images/lambdaWorksMockup.jpg)'}}>
                                     <div className="desc">
                                         <div className="con">
                                             <h3><a>Lambda-Works</a></h3>
