@@ -41,7 +41,7 @@ export default class About extends Component {
                                             </span>
                                             <div className="desc">
                                                 <h3>Software</h3>
-                                                <p>I enjoy using languages such as <strong>Javascipt</strong> and <strong>Python</strong> for their versatility and popularity.</p>
+                                                <p>I enjoy using languages such as <strong>Javascript</strong> and <strong>Python</strong> for their versatility and popularity.</p>
                                             </div>
                                         </div>
                                     </div>
