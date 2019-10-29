@@ -19,17 +19,17 @@ export default class Projects extends Component {
                                     <div className="desc">
                                         <div className="con">
                                             <h3><a>Intelligent Credit</a></h3>
-                                            <span>Credit risk application developed for simplifying B2B, B2C, and C2C credit lending</span>
+                                            <span>Prototype for a B2C and C2C credit lending and risk assessment service that is being upstarted at Adastra with data supplied by Equifax.</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-                                <div className="project" style={{backgroundImage: 'url(images/metrognome1.png)'}}>
+                                <div className="project" style={{backgroundImage: 'url(images/metrognomeMockup.png)'}}>
                                     <div className="desc">
                                         <div className="con">
                                             <h3><a>Metro-Gnome</a></h3>
-                                            <span>Beat maker application for amateur musicians and creatives alike</span>
+                                            <span>Highly customizable music production app designed for amateur artists to create and share their music with others.</span>
                                         </div>
                                     </div>
                                 </div>
@@ -39,7 +39,7 @@ export default class Projects extends Component {
                                     <div className="desc">
                                         <div className="con">
                                             <h3><a>Lambda-Works</a></h3>
-                                            <span>Quiz and Test taker application developed for the University of Toronto</span>
+                                            <span>Prototype quiz taking app developed for the University of Toronto to be used for a year one statistics course.</span>
                                         </div>
                                     </div>
                                 </div>
